@@ -17,12 +17,12 @@ const ProjectsSection = () => {
                     technologies={[FaAngular, FaPhp, SiMysql]}
                     images={
                         [
-                            "public/project-one/SistemaCobranza01.png",
-                            "public/project-one/SistemaCobranza03.png",
-                            "public/project-one/SistemaCobranza04.png",
-                            "public/project-one/SistemaCobranza05.png",
-                            "public/project-one/SistemaCobranza06.png",
-                            "public/project-one/SistemaCobranza07.png"
+                            "/project-one/SistemaCobranza01.png",
+                            "/project-one/SistemaCobranza03.png",
+                            "/project-one/SistemaCobranza04.png",
+                            "/project-one/SistemaCobranza05.png",
+                            "/project-one/SistemaCobranza06.png",
+                            "/project-one/SistemaCobranza07.png"
                         ]
                     }
                     infoPosition="left"
@@ -35,10 +35,10 @@ const ProjectsSection = () => {
                     technologies={[FaVuejs, FaJs]}
                     images={
                         [
-                            "public/project-two/diligencetech01.png",
-                            "public/project-two/diligencetech02.png",
-                            "public/project-two/diligencetech03.png",
-                            "public/project-two/diligencetech04.png",
+                            "/project-two/diligencetech01.png",
+                            "/project-two/diligencetech02.png",
+                            "/project-two/diligencetech03.png",
+                            "/project-two/diligencetech04.png",
                         ]
                     }
                     infoPosition="right"
@@ -51,9 +51,9 @@ const ProjectsSection = () => {
                     technologies={[FaVuejs, FaPython]}
                     images={
                         [
-                            "public/project-three/hidranet01.png",
-                            "public/project-three/hidranet02.png",
-                            "public/project-three/hidranet03.png",
+                            "/project-three/hidranet01.png",
+                            "/project-three/hidranet02.png",
+                            "/project-three/hidranet03.png",
                         ]
                     }
                     infoPosition="left"
@@ -66,10 +66,10 @@ const ProjectsSection = () => {
                     technologies={[FaAngular, FaPython, FaDocker, SiMongodb]}
                     images={
                         [
-                            "public/project-four/findu01.png",
-                            "public/project-four/findu02.png",
-                            "public/project-four/findu04.png",
-                            "public/project-four/findu03.png",
+                            "/project-four/findu01.png",
+                            "/project-four/findu02.png",
+                            "/project-four/findu04.png",
+                            "/project-four/findu03.png",
                         ]
                     }
                     infoPosition="right"
@@ -82,12 +82,12 @@ const ProjectsSection = () => {
                     technologies={[FaVuejs, SiDotnet, SiMysql]}
                     images={
                         [
-                            "public/project-five/cambiazo01.png",
-                            "public/project-five/cambiazo02.png",
-                            "public/project-five/cambiazo03.png",
-                            "public/project-five/cambiazo04.png",
-                            "public/project-five/cambiazo05.png",
-                            "public/project-five/cambiazo06.png",
+                            "/project-five/cambiazo01.png",
+                            "/project-five/cambiazo02.png",
+                            "/project-five/cambiazo03.png",
+                            "/project-five/cambiazo04.png",
+                            "/project-five/cambiazo05.png",
+                            "/project-five/cambiazo06.png",
 
                         ]
                     }

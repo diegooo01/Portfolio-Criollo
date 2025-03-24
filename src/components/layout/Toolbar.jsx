@@ -48,7 +48,7 @@ export default function Toolbar() {
     return (
         <nav className={`toolbar ${scrolled ? "scrolled" : ""}`}>
             <div className="logo">
-                <a href="#hero"><img src="public/diego.svg" alt=""/></a>
+                <a href="#hero"><img src="/diego.svg" alt=""/></a>
                 <h1>Diego.dev</h1>
             </div>
 
