@@ -1,0 +1,118 @@
+.timeline-content {
+  display: flex;
+  gap: 15px;
+  color: #fff;
+  width: 100%;
+  max-width: 780px;
+  justify-content: center;
+  padding: 0px 10px;
+  opacity: 0;
+  transform: translateY(20px);
+  transition: opacity 0.8s ease-out, transform 0.8s ease-out;
+  @media (max-width: 340px) {
+    padding: 0px;
+  }
+  &.visible {
+    opacity: 1;
+    transform: translateY(0);
+  }
+
+}
+
+.line-container {
+  position: relative;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.line {
+  width: 5px;
+  height: 0;
+  background-color: #fff;
+  transition: height 1s ease-in-out;
+
+  .visible & {
+    height: 100%;
+  }
+  .first & {
+    border-top-left-radius: 20px;
+    border-top-right-radius: 20px;
+  }
+  .last & {
+    border-bottom-left-radius: 20px;
+    border-bottom-right-radius: 20px;
+  }
+}
+
+.circle {
+  width: 18px;
+  height: 18px;
+  background-color: #113146;
+  border: 5px solid #4da8da;
+  border-radius: 50%;
+  position: absolute;
+  top: 40%;
+  transform: translateY(-50%);
+  transition: transform 0.2s ease-in-out;
+  transform-origin: center;
+  cursor: pointer;
+  opacity: 0;
+  transition: opacity 0.5s ease-in-out 0.5s;
+
+  .visible & {
+    opacity: 1;
+  }
+
+  &:hover {
+    transform: translateY(-50%) scale(1.12);
+  }
+}
+.job-text{
+  padding: 20px;
+  transition: background 0.43s;
+  border-radius: 20px;
+  margin: 10px 0px;
+  &:hover {
+    background-color: #2d7db1;
+  }
+}
+
+.job-title {
+  padding-bottom: 1rem;
+  font-size: 24px;
+  transition: opacity 0.5s ease-in-out 0.7s;
+  text-align: left;
+  @media (max-width: 340px) {
+    font-size: 20px;
+  }
+}
+
+.job-paragraph {
+  text-align: left;
+
+  h1 {
+    font-weight: bold;
+    font-size: 17px;
+    @media (max-width: 340px) {
+      font-size: 14px;
+    }
+
+  }
+
+  p {
+    font-size: 16px;
+    text-align: justify;
+    padding-top: 15px;
+    @media (max-width: 340px) {
+      font-size: 13px;
+    }
+  }
+
+  opacity: 0;
+  transition: opacity 0.5s ease-in-out 0.9s;
+
+  .visible & {
+    opacity: 1;
+  }
+}

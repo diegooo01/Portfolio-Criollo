@@ -1,0 +1,17 @@
+@import "tailwindcss";
+body {
+    background-color: #031013;
+    margin: 0;
+    padding: 0;
+    width: 100%;
+    height: 100vh;
+    color: white;
+    font-family: "Cambay", sans-serif;
+}
+html {
+    scroll-behavior: smooth;
+    scroll-padding-top: 90px;
+}
+.skyblue{
+    color: #46b2f8;
+}

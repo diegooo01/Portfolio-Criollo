@@ -1,0 +1,76 @@
+.certification-container {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 20px;
+  justify-content: center;
+  margin: 0 auto;
+}
+
+.certification-card {
+  background-color: #132238;
+  color: white;
+  display: flex;
+  align-items: center;
+  padding: 15px;
+  border-radius: 10px;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+  max-width: 500px;
+  width: 100%;
+  gap: 20px;
+  transition: background-color 0.43s;
+  @media (max-width: 750px) {
+    max-width: 100%;
+  }
+  @media (max-width: 260px) {
+    gap: 10px;
+    padding: 10px;
+  }
+  &:hover {
+    background-color: #2d7db1;
+  }
+}
+
+.cert-logo {
+  width: 90px;
+  height: 90px;
+  border-radius: 5px;
+  @media (max-width: 260px) {
+    width: 70px;
+    height: 70px;
+  }
+}
+
+.cert-info {
+  display: flex;
+  flex-direction: column;
+  width: 100%;
+  text-align: left;
+}
+
+.cert-title {
+  font-size: 16px;
+  font-weight: bold;
+  @media (max-width: 340px) {
+    font-size: 14px;
+  }
+  @media (max-width: 260px) {
+    font-size: 12px;
+  }
+}
+
+.cert-institution {
+  padding-top: 5px;
+  font-size: 14px;
+  @media (max-width: 340px) {
+    font-size: 12px;
+  }
+}
+
+.cert-year {
+  padding-top: 5px;
+  font-size: 14px;
+  color: #ccc;
+  @media (max-width: 340px) {
+    font-size: 12px;
+  }
+}
