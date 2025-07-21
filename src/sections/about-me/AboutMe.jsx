@@ -29,7 +29,6 @@ const AnimatedNumber = ({ value }) => {
     useEffect(() => {
         if (!visible) return;
 
-        let start = 0;
         const duration = 2500; // 1 segundo
         const startTime = performance.now();
 
@@ -58,13 +57,22 @@ const AboutMeSection = () => {
             <div className="about-me-content">
                 <h2>Acerca de mí</h2>
                 <p>
-                    Estudiante de cuarto año de <span className="skyblue">Ingeniería de Software</span>  en la Universidad
-                    Peruana de Ciencias Aplicadas (UPC). Me especializo en el <span className="skyblue">desarrollo
-                    full-stack</span>, con experiencia en la creación de aplicaciones y sistemas
-                    integrales. Me caracteriza una <span className="skyblue">mentalidad analítica</span> y orientada a
-                    la
-                    resolución de problemas, con un compromiso por el aprendizaje continuo y
-                    la <span className="skyblue">innovación tecnológica</span> para crear soluciones de impacto.
+                    Soy Diego Criollo, estudiante de 4to año de <span className="skyblue">Ingeniería de Software </span>  en la UPC
+                    (Universidad Peruana de Ciencias Aplicadas). Me interesa especialmente el
+                    <span className="skyblue"> desarrollo frontend </span>
+                     por su impacto en la experiencia del usuario y las oportunidades
+                    que ofrece para la innovación visual y funcional. También me gusta involucrarme en
+                    <span className="skyblue"> distintas áreas del desarrollo de software</span>, explorando tanto el diseño de interfaces
+                    como la lógica del backend.
+                </p>
+                <p>
+                    Actualmente realizo prácticas en una entidad financiera, donde
+                    colaboro en el <span className="skyblue">desarrollo de la arquitectura del core bancario</span>.
+                    Este rol me ha permitido adquirir una visión sólida sobre <span className="skyblue">sistemas
+                    complejos, diseño estructurado y buenas prácticas de escalabilidad</span>.
+                    Me adapto con facilidad a distintos entornos de trabajo y disfruto
+                    integrarme en equipos donde puedo aportar ideas, escuchar activamente
+                    y contribuir con soluciones funcionales y bien fundamentadas.
                 </p>
             </div>
             <div className="stats">
@@ -80,18 +88,18 @@ const AboutMeSection = () => {
             <div className="timeline" id="professional-experience">
                 <h2>Experiencia Profesional</h2>
                 <JobTimelineItem
+                    jobTitle="Practicante en Arquitectura Core Banking"
+                    company="Santander Consumer Bank"
+                    description="En mi rol como practicante me encuentro colaborando con la arquitectura del Core Bancario. Realizo el mapeo y análisis de los requerimientos estipulados del Core, así como la documentación técnica de los servicios, para posteriormente apoyar en la fase de construcción utilizando Java 18, SpringBoot y Oracle."
+                    duration="Mayo 2025 - Presente"
+                    firstItem={true}
+                />
+                <JobTimelineItem
                     jobTitle="Practicante en Analista de Programación"
                     company="Agencia SLINKY"
                     description="Como practicante, desarrollé componentes en HTML y SCSS con Angular 18 y Bootstrap, además de corregir estilos en HubSpot. Participé en proyectos ágiles (SCRUM y KANBAN), colaborando usando Git. También creé web services en PHP nativo, probándolos con POSTMAN."
-                    duration="Diciembre 2024 - Presente"
-                    firstItem={true} // Marca el primer elemento
-                />
-                <JobTimelineItem
-                    jobTitle="Agente Bilingüe"
-                    company="TP"
-                    description="Como teleoperador bilingüe, desempeñé funciones de atención y soporte a clientes extranjeros de Estados Unidos y Australia. Además de ello, realicé la mejoría de la experiencia de los servicios que poseía el usuario con la compañía."
-                    duration="Enero 2024 - Marzo 2024"
-                    lastItem={true} // Marca el último elemento
+                    duration="Diciembre 2024 - Marzo 2025"
+                    lastItem={true}
                 />
             </div>
             <div className="dashed-line"></div>

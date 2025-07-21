@@ -11,7 +11,7 @@ const HeroSection = () => {
                 <p>Estudiante de <span className="skyblue">Ingeniería de Software</span>  y <br/>  <span className="skyblue">Desarrollador FullStack</span></p>
             </div>
             <div className="button-content">
-                <a href="/Diego%20Criollo%20CV.pdf" className="download-btn" download>
+                <a href="/Diego%20Criollo.pdf" className="download-btn" download>
                     <HiDownload className="icon"/><span className="bold-text">Descargar CV</span>
                 </a>
             </div>

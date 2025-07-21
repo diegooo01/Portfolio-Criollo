@@ -1,6 +1,6 @@
 import "./Projects.scss";
 import ProjectItem from "./components/ProjectItem.jsx";
-import {FaAngular, FaPhp, FaVuejs, FaJs, FaPython, FaDocker} from "react-icons/fa";
+import {FaAngular, FaPhp, FaVuejs, FaJs, FaPython, FaDocker, FaUserAstronaut} from "react-icons/fa";
 import {SiMysql, SiMongodb, SiDotnet  } from "react-icons/si";
 import React from "react";
 
@@ -9,6 +9,23 @@ const ProjectsSection = () => {
         <section className="projects" id="projects">
             <div className="projects-content">
                 <h2>Proyectos</h2>
+                <ProjectItem
+                    title="NutriControl Landing Page"
+                    description="Landing page de NutriControl, una solución de AgroSense que integra web, app móvil e IoT para optimizar el riego y fertilización agrícola mediante sensores que monitorean el suelo en tiempo real, mejorando el rendimiento y promoviendo una agricultura sostenible."
+                    link="https://nutricontrol.netlify.app/"
+                    subtitle="Link de la página web"
+                    technologies={[FaUserAstronaut]}
+                    images={
+                        [
+                            "/project-six/nutricontrol01.png",
+                            "/project-six/nutricontrol02.png",
+                            "/project-six/nutricontrol03.png",
+                            "/project-six/nutricontrol04.png",
+                            "/project-six/nutricontrol05.png"
+                        ]
+                    }
+                    infoPosition="left"
+                />
                 <ProjectItem
                     title="Sistema de Cobranza Partner247"
                     description="Sistema de cobranza y gestión de créditos con módulos de seguridad, clientes y agentes. Permite registrar préstamos, asignar cobradores y monitorear pagos. Genera reportes y estadísticas financieras para optimizar la gestión de procesos administrativos."
@@ -25,7 +42,7 @@ const ProjectsSection = () => {
                             "/project-one/SistemaCobranza07.png"
                         ]
                     }
-                    infoPosition="left"
+                    infoPosition="right"
                 />
                 <ProjectItem
                     title="Dilingence Tech Landing Page"
@@ -41,7 +58,7 @@ const ProjectsSection = () => {
                             "/project-two/diligencetech04.png",
                         ]
                     }
-                    infoPosition="right"
+                    infoPosition="left"
                 />
                 <ProjectItem
                     title="Hidra.Net"
@@ -54,22 +71,6 @@ const ProjectsSection = () => {
                             "/project-three/hidranet01.png",
                             "/project-three/hidranet02.png",
                             "/project-three/hidranet03.png",
-                        ]
-                    }
-                    infoPosition="left"
-                />
-                <ProjectItem
-                    title="FindU"
-                    description="Red social diseñada para que estudiantes universitarios puedan interactuar, colaborar y establecer conexiones académicas y profesionales. El proyecto implementa un enfoque escalable y eficiente, utilizando tecnologías de virtualización para gestionar dinámicamente la infraestructura de la aplicación y la base de datos, asegurando alto rendimiento y disponibilidad."
-                    link="https://github.com/diegooo01/FindU"
-                    subtitle="Link del repositorio"
-                    technologies={[FaAngular, FaPython, FaDocker, SiMongodb]}
-                    images={
-                        [
-                            "/project-four/findu01.png",
-                            "/project-four/findu02.png",
-                            "/project-four/findu04.png",
-                            "/project-four/findu03.png",
                         ]
                     }
                     infoPosition="right"

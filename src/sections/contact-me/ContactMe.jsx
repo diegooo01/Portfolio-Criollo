@@ -46,7 +46,7 @@ const ContactMe = () => {
                     <p>
                         Si deseas ponerte en contacto conmigo,{" "}
                         <span className="skyblue">completa el siguiente formulario</span>.
-                        También puedes explorar <span className="skyblue">más sobre mí y mis proyectos</span>
+                        También puedes explorar <span className="skyblue">más sobre mí y mis proyectos </span>
                         a través de mis <span className="skyblue">redes sociales</span> que encontrarás abajo.
                         ¡Será un placer conectar contigo!
                     </p>

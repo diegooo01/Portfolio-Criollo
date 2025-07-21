@@ -4,6 +4,13 @@ import React from "react";
 
 const certifications = [
     {
+        image: "https://enwadil.com/wp-content/uploads/2024/11/IELTSSQUARE.jpeg",
+        title: "IELTS Academic - B2",
+        institution: "British Council IDP",
+        year: "2025",
+        link: "/PE10125500260-28-06-2025-ETRF.pdf",
+    },
+    {
         image: "https://raw.githubusercontent.com/diegooo01/Portfolio-Diego/refs/heads/main/public/certifications-logos/u-macquire.png",
         title: "Excel Skills: Advanced",
         institution: "Macquire University",
@@ -51,13 +58,6 @@ const certifications = [
         institution: "ScrumStudy",
         year: "2023",
         link: "https://www.scrumstudy.com/certification/verify?type=SFC&number=983615"
-    },
-    {
-        image: "https://raw.githubusercontent.com/diegooo01/Portfolio-Diego/refs/heads/main/public/certifications-logos/icpna-certification.png",
-        title: "Inglés Avanzado",
-        institution: "ICPNA",
-        year: "2021",
-        link: ""
     },
 ];
 
